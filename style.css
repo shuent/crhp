@@ -63,7 +63,18 @@ h2 {
   flex-wrap: wrap;
 }
 .nav-list li {
-  margin-left: 26px;
+  margin-left: 20px;
+}
+.nav-list a {
+  all: unset;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+
+}
+
+.nav-list a:hover {
+  background-color: black;
 }
 
 .content {
